@@ -1,2 +1,2 @@
-# project-titan
-T.I.T.A.N. - Trusted Infrastructure for Technology &amp; Advanced Networking
+# Project T.I.T.A.N.
+Trusted Infrastructure for Technology &amp; Advanced Networking
