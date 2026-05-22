@@ -81,3 +81,114 @@ Installed Docker Engine using the official Docker repository instead of Ubuntu p
 docker run hello-world
 
 
+# Jellyfin Deployment
+
+## Objective
+Deploy Jellyfin as a containerized media streaming service using Docker Compose.
+
+# Directory Structure
+Created persistent storage directories for:
+- application configuration
+- cache
+- media libraries
+
+## Paths
+/srv/docker/jellyfin/config
+/srv/docker/jellyfin/cache
+/srv/media/movies
+/srv/media/shows
+/srv/media/anime
+
+
+# NVIDIA Docker Runtime Configuration
+
+## Objective
+Enable GPU acceleration support inside Docker containers using NVIDIA Container Toolkit.
+This allows containerized applications to access:
+- NVIDIA GPU
+- CUDA runtime
+- GPU compute acceleration
+
+Required for:
+- Ollama
+- AI inference workloads
+- hardware transcoding
+- GPU accelerated containers
+
+# NVIDIA Container Toolkit
+Installed:
+- nvidia-container-toolkit
+Configured Docker runtime integration using:
+sudo nvidia-ctk runtime configure --runtime=docker
+
+
+# Dockge Deployment
+
+## Objective
+Deploy Dockge as a web-based Docker Compose management interface.
+Purpose:
+- stack management
+- compose file editing
+- container monitoring
+- service lifecycle control
+
+# Deployment Directory
+~/docker/dockge
+
+
+# Homepage Dashboard Deployment
+
+## Objective
+Deploy Homepage as a centralized self-hosted infrastructure dashboard.
+Purpose:
+- service organization
+- quick-access dashboard
+- container status visualization
+- homelab control interface
+
+# Deployment Directory
+~/docker/homepage
+
+
+# Uptime Kuma Deployment
+
+## Objective
+Deploy Uptime Kuma for infrastructure availability monitoring and service health tracking.
+Purpose:
+- service uptime monitoring
+- response time tracking
+- infrastructure observability
+- health monitoring dashboard
+
+# Deployment Directory
+~/docker/uptime-kuma
+
+
+# Ollama Deployment
+
+## Objective
+Deploy Ollama as the local AI inference runtime for TITAN.
+Purpose:
+- local LLM execution
+- offline AI inference
+- GPU accelerated model serving
+- AI API backend
+
+# Deployment Directory
+~/docker/ollama
+
+
+# Open WebUI Deployment
+
+## Objective
+Deploy Open WebUI as the frontend conversational interface for TITAN AI infrastructure.
+Purpose:
+- browser-based AI chat interface
+- local ChatGPT-like experience
+- persistent conversation management
+- model interaction layer
+
+# Deployment Directory
+~/docker/open-webui
+
+
