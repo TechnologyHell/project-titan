@@ -142,4 +142,17 @@ Connected to:
 
 
 
+# FileBrowser Deployment
+
+## Purpose
+Browser-based NAS and filesystem management interface.
+
+## Deployment Method
+Docker Compose deployment.
+
+## Storage Layout
+/srv/docker/filebrowser
+
+
+
 #

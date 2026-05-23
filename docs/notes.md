@@ -149,3 +149,44 @@ Successfully migrated from native-service mindset to containerized deployment mo
 
 
 
+## NAS Centralized Storage Structure
+
+### Everything later will use THIS.
+
+Including:
+- Samba
+- FileBrowser
+- backups
+- Nextcloud (if ever)
+- AI memory stores
+- databases
+- automation exports
+
+This becomes: TITAN’s persistent data layer.
+
+
+
+# During Phase 3:
+- storage paths standardized
+- persistent storage consolidated
+- Docker stack organization refined
+- infrastructure hierarchy cleaned
+- Samba architecture simplified
+
+
+Homepage evolved into:
+- centralized infrastructure portal
+- service navigation layer
+- homelab operational interface
+
+Current Infrastructure Expansion State
+TITAN now additionally supports:
+- NAS-style storage access
+- SMB interoperability
+- browser filesystem management
+- real-time telemetry
+- infrastructure observability
+- centralized storage architecture
+- persistent operational dashboards
+- Current Service Ports
+

@@ -192,3 +192,37 @@ Purpose:
 ~/docker/open-webui
 
 
+# NAS Storage Structure Setup
+Created centralized storage structure under : 
+/srv/storage
+
+
+# FileBrowser NAS UI Setup
+
+## Objective
+Deploy browser-accessible NAS management interface.
+Purpose:
+- modern filesystem UI
+- browser-based storage management
+- infrastructure file access
+- NAS-style web experience
+
+# Deployment Directory
+~/docker/filebrowser
+
+
+# Netdata Monitoring Setup
+
+## Objective
+Deploy real-time infrastructure monitoring platform.
+Purpose:
+- live infrastructure analytics
+- Docker observability
+- resource monitoring
+- visual performance dashboards
+
+# Deployment Directory
+~/docker/netdata
+
+
+#
