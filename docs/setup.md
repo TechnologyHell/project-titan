@@ -15,7 +15,7 @@
 | GPU           | RTX 3060 Ti 8GB       |
 | RAM           | 32GB DDR4 3600MHz     |
 | Storage       | 2TB NVMe SSD          |
-| Motherboard   | ASUS TUF X570 WiFi    |
+| Motherboard   | ASUS TUF X570 WiFi    | 
 | Networking    | TPLink Gigabit Router |
 
 ## Partition Setup
@@ -225,4 +225,4 @@ Purpose:
 ~/docker/netdata
 
 
-#
+# 
