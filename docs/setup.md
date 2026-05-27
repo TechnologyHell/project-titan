@@ -227,3 +227,15 @@ Purpose:
 
 # USB Webcam Setup
 
+## Objective
+Setup a USB Web Cam to act as a surveillance camera.
+Purpose : 
+- live camera feed
+- Go2rtc camera access
+- recordable and analyzable (later)
+
+# Deployment Directory
+~/docker/go2rtc
+
+
+
