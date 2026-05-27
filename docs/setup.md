@@ -86,7 +86,7 @@ docker run hello-world
 ## Objective
 Deploy Jellyfin as a containerized media streaming service using Docker Compose.
 
-# Directory Structure
+## Directory Structure
 Created persistent storage directories for:
 - application configuration
 - cache
@@ -115,7 +115,7 @@ Required for:
 - hardware transcoding
 - GPU accelerated containers
 
-# NVIDIA Container Toolkit
+## NVIDIA Container Toolkit
 Installed:
 - nvidia-container-toolkit
 Configured Docker runtime integration using:
@@ -132,7 +132,7 @@ Purpose:
 - container monitoring
 - service lifecycle control
 
-# Deployment Directory
+## Deployment Directory
 ~/docker/dockge
 
 
@@ -146,7 +146,7 @@ Purpose:
 - container status visualization
 - homelab control interface
 
-# Deployment Directory
+## Deployment Directory
 ~/docker/homepage
 
 
@@ -160,7 +160,7 @@ Purpose:
 - infrastructure observability
 - health monitoring dashboard
 
-# Deployment Directory
+## Deployment Directory
 ~/docker/uptime-kuma
 
 
@@ -174,7 +174,7 @@ Purpose:
 - GPU accelerated model serving
 - AI API backend
 
-# Deployment Directory
+## Deployment Directory
 ~/docker/ollama
 
 
@@ -188,7 +188,7 @@ Purpose:
 - persistent conversation management
 - model interaction layer
 
-# Deployment Directory
+## Deployment Directory
 ~/docker/open-webui
 
 
@@ -207,7 +207,7 @@ Purpose:
 - infrastructure file access
 - NAS-style web experience
 
-# Deployment Directory
+## Deployment Directory
 ~/docker/filebrowser
 
 
@@ -221,7 +221,7 @@ Purpose:
 - resource monitoring
 - visual performance dashboards
 
-# Deployment Directory
+## Deployment Directory
 ~/docker/netdata
 
 
@@ -234,7 +234,7 @@ Purpose :
 - Go2rtc camera access
 - recordable and analyzable (later)
 
-# Deployment Directory
+## Deployment Directory
 ~/docker/go2rtc
 
 
@@ -247,8 +247,16 @@ Purpose :
 - Easy access with a single click
 - Drawback - only 0.33 FPS achievable (due to HA limitation)
 
-# Deployment Method
+## Deployment Method
 Current Setup permits 1 frame every 3 seconds.
 Frame captured and stored using Python Pipeline.
 Python used to simulate a virtual camera.
 Virtual camera used to pass stream to go2rtc config file.
+
+## PROGRESS - ONVIF Device Manager
+
+## Improvement 
+Allowed for direct RTSP Stream URL identification for the IP Camera
+
+## Deployment
+Directly mapped stream URL with credentials into GO2RTC Device listing.
