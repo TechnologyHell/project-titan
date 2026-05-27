@@ -238,4 +238,17 @@ Purpose :
 ~/docker/go2rtc
 
 
+# IP Camera Setup to GO2RTC
 
+## Objective
+Configure IP Cam to show live camera feed on unified go2rtc channel.
+Purpose : 
+- IP cam feed to go2rtc dashboard
+- Easy access with a single click
+- Drawback - only 0.33 FPS achievable (due to HA limitation)
+
+# Deployment Method
+Current Setup permits 1 frame every 3 seconds.
+Frame captured and stored using Python Pipeline.
+Python used to simulate a virtual camera.
+Virtual camera used to pass stream to go2rtc config file.
