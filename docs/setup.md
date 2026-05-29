@@ -262,4 +262,30 @@ Allowed for direct RTSP Stream URL identification for the IP Camera
 Directly mapped stream URL with credentials into GO2RTC Device listing.
 
 
-# 
+# NVR Setup (for active camera devices)
+
+## Objective
+NVR like recording system for assigned cameras, storing chunks of realtime footage.
+- Centralized network storage for footage collection
+- Chunks of 5min clips ensuring lower footage loss upon power cut / system crash
+- Realtime recording as well as live preview through go2rtc
+
+## CP Plus E25A IP Camera
+  - Live streaming via Go2RTC
+  - RTSP integration
+  - Automated recording
+  - 5-minute segmented archives
+
+## Logitech C925e USB Camera
+  - Live streaming via Go2RTC
+  - Automated recording
+  - 5-minute segmented archives
+
+## Storage Layout
+  /srv/surveillance/<camera>/<date>/
+
+## Automatic startup
+  systemd-managed services
+
+## Retention policy design
+  90-day archive lifecycle 
