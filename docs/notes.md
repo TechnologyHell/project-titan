@@ -190,3 +190,18 @@ TITAN now additionally supports:
 - persistent operational dashboards
 - Current Service Ports
 
+
+
+# CP Plus IP Camera - ONVIF Configuration 
+Home Assistant is able to detect over ONVIF discovery;
+but the challenge stands in grabbing the live stream.
+
+- Useful Windows Application : ODM (Onvif Device Manager)
+---Scans the network for devices, 
+---Exposes list of features, controls, and parameters for the device 
+
+IP Camera is capable, only requires it to be ONVIF boardable.
+
+
+
+# 

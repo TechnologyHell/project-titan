@@ -65,7 +65,7 @@ Provide:
 
 # Verified
 Access successfully tested through:
-- \\192.168.0.5
+- \\<SERVER_IP>
 from Windows systems.
 
 ## FileBrowser Deployment

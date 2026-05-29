@@ -252,7 +252,7 @@ DONE DAY 1*******************************************
 Mapping it as a network drive on Windows : 
 1. Map Network Drive
 
-2\. \\\\192.168.0.5\\srv
+2\. \\\\<SERVER_IP>\\srv
 
 3\. Enter Credentials
 
@@ -407,7 +407,7 @@ sudo nano /etc/apache2/sites-available/nextcloud.conf
 
 <VirtualHost \*:80>
 
-&nbsp;   ServerName 192.168.0.5
+&nbsp;   ServerName <SERVER_IP>
 
 
 
@@ -443,7 +443,7 @@ sudo systemctl reload apache2
 
 
 
-Now open http://192.168.0.5 in your browser to start the web installer. 
+Now open http://<SERVER_IP> in your browser to start the web installer. 
 
 
 

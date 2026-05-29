@@ -2279,7 +2279,7 @@ sudo systemctl restart nmbd
 
 **6. Map Network Drive**
 
-\\\\192.168.0.6\\tech
+\\\\<SERVER_IP>\\tech
 
 
 
@@ -2813,7 +2813,7 @@ Expected Output : Running on http://0.0.0.0:5000
 
 &nbsp;\* Running on http://127.0.0.1:5000
 
-&nbsp;\* Running on http://192.168.0.5:5000
+&nbsp;\* Running on http://<SERVER_IP>:5000
 
 
 
@@ -2839,7 +2839,7 @@ import requests
 
 
 
-SERVER\_URL = "http://192.168.0.5:5000/stt"
+SERVER\_URL = "http://<SERVER_IP>:5000/stt"
 
 
 

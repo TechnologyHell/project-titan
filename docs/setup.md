@@ -29,7 +29,7 @@ Installed OpenSSH server for remote management and headless operation.
 ## Verification
 SSH service enabled and verified successfully.
 Remote access now possible through:
-~ ssh user@192.186.x.x
+~ ssh user@<SERVER_IP>
 
 
 # Hardware Monitoring
@@ -260,3 +260,6 @@ Allowed for direct RTSP Stream URL identification for the IP Camera
 
 ## Deployment
 Directly mapped stream URL with credentials into GO2RTC Device listing.
+
+
+# 
