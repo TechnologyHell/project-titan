@@ -282,10 +282,38 @@ NVR like recording system for assigned cameras, storing chunks of realtime foota
   - 5-minute segmented archives
 
 ## Storage Layout
-  /srv/surveillance/<camera>/<date>/
+  /srv/surveillance/<camera>/<date>/5-min_clips
 
 ## Automatic startup
   systemd-managed services
 
 ## Retention policy design
   90-day archive lifecycle 
+
+
+## Retention Policy
+
+Automated recording retention policy configured.
+
+### Mechanism
+Systemd timer based cleanup service.
+
+### Schedule
+Runs once daily.
+
+### Action
+Deletes surveillance recordings older than 90 days.
+
+### Managed Paths
+
+/srv/surveillance/CPPlus_E25A
+/srv/surveillance/Logitech_C925e
+
+### Purpose
+
+- Prevent uncontrolled storage growth
+- Maintain rolling surveillance archive
+- Reduce manual maintenance requirements
+
+
+#
