@@ -155,4 +155,109 @@ Docker Compose deployment.
 
 
 
-#
+# Home Assistant Deployment
+
+## Purpose
+
+Central smart home management platform.
+
+## Features
+
+- Device discovery
+- ONVIF camera integration
+- Automation engine
+- Sensor aggregation
+- Unified smart home dashboard
+
+## Storage Layout
+
+/srv/docker/homeassistant
+
+## Current Integrations
+
+- CP Plus IP Camera
+
+
+
+# Go2RTC Deployment
+
+## Purpose
+
+Unified camera streaming platform.
+
+## Deployment Method
+
+Docker Compose deployment.
+
+## Storage Layout
+
+/ srv/docker/go2rtc
+
+## Features
+
+- RTSP restreaming
+- WebRTC streaming
+- Browser viewing
+- Multi-camera dashboard
+- Low latency camera access
+
+## Current Cameras
+
+### Logitech C925e
+
+Source:
+USB Webcam
+
+Resolution:
+1920x1080
+
+Frame Rate:
+30 FPS
+
+### CP Plus E25A
+
+Source:
+RTSP
+
+URL:
+rtsp://<SERVER_IP>:<PORT>/live/channel0
+
+Frame Rate:
+Native camera stream
+
+Discovery Method:
+ONVIF Device Manager
+
+
+
+# NAS Infrastructure
+
+## Storage Root
+
+/srv/storage
+
+## Access Methods
+
+- SMB
+- FileBrowser
+- Local Linux Filesystem
+
+## Shares
+
+- Public
+- Tech
+- Home
+- Srv
+
+## Purpose
+
+Centralized storage for:
+
+- Media
+- Documents
+- Backups
+- AI Datasets
+- Future Camera Recordings
+
+
+

@@ -24,7 +24,6 @@ ssh username@<SERVER_IP>
 
 
 
-
 # Infrastructure Addressing
 
 | Service           | Address       |
@@ -46,3 +45,37 @@ ssh username@<SERVER_IP>
 | TAPO Smart Plug   | x.x.x.201     |
 | Halonix Bulb      | x.x.x.202     |
 | CP Plus IP Camera | x.x.x.203     |
+
+
+
+# Remote Power Control
+
+Wake On LAN enabled.
+
+Server may remain powered off and be remotely started using magic packets.
+
+Requirements:
+- Router powered
+- Network path active
+- Ethernet connected
+
+Use Cases:
+- Remote maintenance
+- Energy saving
+- On-demand AI server activation
+
+
+
+Internet
+   │
+ ONU
+   │
+ Archer C6 Router
+   │
+ ├── TITAN Server
+ │
+ ├── IP Cameras
+ │
+ ├── Home Assistant
+ │
+ └── Client Devices
