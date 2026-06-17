@@ -42,6 +42,7 @@ ssh username@<SERVER_IP>
 | Netdata           | x.x.x.x:19999 |
 | Go2RTC            | x.x.x.x:1984  |
 | Home Assistant    | x.x.x.x:8123  |
+| Frigate           | x.x.x.x:5000  |
 | TAPO Smart Plug   | x.x.x.201     |
 | Halonix Bulb      | x.x.x.202     |
 | CP Plus IP Camera | x.x.x.203     |
