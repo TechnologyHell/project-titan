@@ -316,4 +316,181 @@ Deletes surveillance recordings older than 90 days.
 - Reduce manual maintenance requirements
 
 
-# Frigate - Surveillance Observation Layer
+# Telegram Remote Management
+
+## Objective
+
+Provide secure remote administration of TITAN without requiring SSH access.
+
+## Features
+
+- Remote server reboot
+- Server shutdown
+- Wake-on-LAN trigger
+- Infrastructure status reporting
+- Command execution framework
+
+## Purpose
+
+- Remote administration
+- Mobile infrastructure control
+- Emergency server management
+
+
+
+# Local Voice Assistant (JARVIS)
+
+## Objective
+
+Develop a completely local voice assistant inspired by JARVIS.
+
+Entire pipeline executes locally on TITAN.
+
+## Voice Pipeline
+
+Wake Word
+↓
+Speech Recognition
+↓
+Local LLM
+↓
+Text-to-Speech
+↓
+Audio Playback
+
+## Components
+
+### Wake Word
+- OpenWakeWord
+- "Hey Jarvis"
+
+### Speech Recognition
+- Faster Whisper
+- CUDA accelerated
+
+### AI Model
+- Ollama
+- Gemma 3 4B
+
+### Text-to-Speech
+- Piper
+- en_US-danny-low
+
+## Features
+
+- Offline operation
+- GPU accelerated inference
+- Multi-turn conversations
+- Context aware responses
+- Automatic silence timeout
+- Local execution
+
+
+
+# AI Personality Layer
+
+Configured custom JARVIS system prompt.
+
+Capabilities include:
+
+- Identity awareness
+- TITAN hardware awareness
+- Infrastructure awareness
+- Personalized interaction style
+- Professional response behaviour
+
+
+
+# Local AI Platform
+
+## Open WebUI
+
+Configured as the primary AI interface.
+
+Supports:
+
+- Multiple local models
+- Document upload
+- Image understanding
+- RAG workflows
+- Persistent conversations
+
+
+
+# Infrastructure Dashboard
+
+Homepage configured as the centralized management portal.
+
+Current integrated services:
+
+- Jellyfin
+- Dockge
+- Uptime Kuma
+- FileBrowser
+- Ollama
+- Open WebUI
+- Netdata
+- Home Assistant
+- Go2RTC
+- Camera Streams
+
+
+
+# Infrastructure Monitoring
+
+Uptime Kuma configured for continuous monitoring.
+
+Current monitored services:
+
+- Homepage
+- Dockge
+- Jellyfin
+- Ollama
+- Open WebUI
+- Netdata
+- Home Assistant
+- FileBrowser
+- Camera Streams
+
+Metrics collected:
+
+- Service availability
+- Response latency
+- Historical uptime
+- Health status
+
+
+
+# Current Infrastructure Summary
+
+TITAN currently provides:
+
+- Linux Server
+- Docker Infrastructure
+- GPU Accelerated AI
+- Local LLM Platform
+- Local Voice Assistant
+- NAS Storage
+- NVR Surveillance
+- Smart Home Platform
+- Camera Streaming
+- Infrastructure Monitoring
+- Remote Management
+- Centralized Dashboard
+
+
+
+# Next Development Stage
+
+Planned implementation:
+
+- Intent Recognition Engine
+- Terminal Command Execution
+- Linux Administration via Voice
+- Docker Management via Voice
+- Home Assistant Integration
+- Smart Device Control
+- Live Hardware Monitoring
+- Natural Language System Queries
+- AI Computer Vision
+- Autonomous Task Execution
