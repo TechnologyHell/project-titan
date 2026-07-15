@@ -261,4 +261,161 @@ Centralized storage for:
 
 
 
-# 
+# Netdata Deployment
+
+## Purpose
+
+Real-time infrastructure monitoring platform.
+
+## Deployment Method
+
+Docker Compose deployment.
+
+## Storage Layout
+
+/srv/docker/netdata
+
+## Features
+
+- CPU monitoring
+- GPU monitoring
+- RAM monitoring
+- Disk monitoring
+- Network monitoring
+- Docker monitoring
+- Historical performance graphs
+
+
+
+# JARVIS Voice Assistant
+
+## Purpose
+
+Provide a completely local conversational AI assistant.
+
+## Deployment Method
+
+Native Python application.
+
+## Storage Layout
+
+/srv/friday
+
+## Core Components
+
+- OpenWakeWord
+- Faster Whisper
+- Ollama
+- Gemma 3 4B
+- Piper TTS
+
+## Features
+
+- Wake word activation
+- Speech-to-text
+- Local LLM inference
+- Text-to-speech
+- Multi-turn conversations
+- Offline operation
+
+
+
+# Surveillance Recording
+
+## Purpose
+
+Centralized NVR-style recording for connected cameras.
+
+## Recording Root
+
+/srv/surveillance
+
+## Features
+
+- Automatic recording
+- 5-minute segmented clips
+- Daily retention cleanup
+- Camera-wise storage organization
+
+
+
+# Samba Deployment
+
+## Purpose
+
+Provide network file sharing across local devices.
+
+## Access Protocol
+
+SMB / CIFS
+
+## Shared Directories
+
+- Public
+- Home
+- Tech
+- Srv
+
+## Features
+
+- Windows compatibility
+- Linux compatibility
+- Persistent network storage
+- Centralized file sharing
+
+
+
+# Infrastructure Summary
+
+| Service | Purpose |
+|----------|---------|
+| Jellyfin | Media Streaming |
+| Dockge | Docker Stack Management |
+| Homepage | Infrastructure Dashboard |
+| Uptime Kuma | Service Monitoring |
+| Ollama | Local AI Runtime |
+| Open WebUI | AI Chat Interface |
+| FileBrowser | NAS Web UI |
+| Home Assistant | Smart Home Platform |
+| Go2RTC | Camera Streaming |
+| Netdata | Infrastructure Monitoring |
+| Samba | Network Storage |
+| JARVIS | Local Voice Assistant |
+
+
+
+# Deployment Architecture
+
+User
+↓
+Homepage Dashboard
+↓
+Docker Services
+├── Jellyfin
+├── Dockge
+├── Ollama
+├── Open WebUI
+├── Home Assistant
+├── Go2RTC
+├── FileBrowser
+├── Netdata
+├── Uptime Kuma
+└── Samba
+↓
+GPU + Storage + Cameras
+
+
+
+# Current Deployment Statistics
+
+Current Environment
+
+- Ubuntu Server 26.04 LTS
+- Docker Compose Infrastructure
+- GPU Accelerated AI
+- 10+ Self-hosted Services
+- Local AI Platform
+- NAS Infrastructure
+- NVR Surveillance
+- Smart Home Platform
+- Voice Assistant
